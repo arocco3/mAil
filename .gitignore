@@ -1,0 +1,36 @@
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+credentials.*
+token.json
+
+# --- Dati personali generati dall'app ---
+*.db
+*.sqlite
+*.sqlite3
+allegati/
+scaricati/
+cache/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# --- Build dell'eseguibile (PyInstaller) ---
+build/
+dist/
+*.spec
+
+# --- Editor e sistema operativo ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Windows
+desktop.ini
